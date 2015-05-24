@@ -1,7 +1,9 @@
 <rml>
 	<head>
+		<link type="text/rcss" href="menu.rcss" />
 	</head>
 	<body id="menu_main">
-		<img src="/ui/assets/background" />
+		<img class="background" src="/ui/assets/background" />
+		<img class="gradientv" src="/ui/assets/gradientv" />
 	</body>
 </rml>
