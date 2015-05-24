@@ -1,0 +1,14 @@
+<rml>
+	<head>
+		<style>
+			body {
+				width: 24px;
+				height: 24px;
+				cursor-decorator: image;
+				cursor-image: /ui/assets/cursor;
+			}
+		</style>
+	</head>
+	<body>
+	</body>
+</rml>

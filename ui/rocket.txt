@@ -29,5 +29,5 @@
 	misc
 	{
 	}
-	cursor ui/shared/cursor.rml
+	cursor ui/cursor.rml
 }
