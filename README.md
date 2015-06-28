@@ -1,4 +1,6 @@
-# Unreal Arena - Data  [![Build Status](https://travis-ci.org/unrealarena/unrealarena-data.svg?branch=master)](https://travis-ci.org/unrealarena/unrealarena-data)
+[![Build Status](https://travis-ci.org/unrealarena/unrealarena-data.svg?branch=master)](https://travis-ci.org/unrealarena/unrealarena-data)
+
+# Unreal Arena - Data
 
 This repository contains all the game assets for Unreal Arena.
 
