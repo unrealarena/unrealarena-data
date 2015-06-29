@@ -25,9 +25,9 @@ install() {
 # script
 script() {
 	git diff --name-only v"$(git show HEAD^:VERSION)" | fgrep -v -e ".gitattributes" \
-		                                      -e ".travis.sh" \
-		                                      -e ".travis.yml" \
-		                                      -e "README.md" | zip -9 "unrealarena-data.pre.zip" -@
+	                                                             -e ".travis.sh" \
+	                                                             -e ".travis.yml" \
+	                                                             -e "README.md" | zip -9 "unrealarena-data.pre.zip" -@
 }
 
 
@@ -42,5 +42,5 @@ fi
 # Enable exit on error & display of executing commands
 set -ex
 
-# Call <STEP>
+# Run <STEP>
 ${1}
