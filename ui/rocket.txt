@@ -18,9 +18,6 @@
 		ui/ingame_teamselect.rml ingame_teamselect             // ROCKETMENU_TEAMSELECT
 		ui/human_spawn.rml human_spawn                         // ROCKETMENU_HUMANSPAWN
 		ui/alien_spawn.rml alien_spawn                         // ROCKETMENU_ALIENSPAWN
-		ui/alien_build.rml alien_build                         // ROCKETMENU_ALIENBUILD
-		ui/human_build.rml human_build                         // ROCKETMENU_HUMANBUILD
-		ui/human_buy.rml human_buy                             // ROCKETMENU_ARMOURYBUY
 		ui/alien_evo.rml alien_evo                             // ROCKETMENU_ALIENEVOLVE
 		ui/ingame_chat.rml ingame_chat                         // ROCKETMENU_CHAT
 		ui/ingame_beaconmenu.rml ingame_beaconmenu             // ROCKETMENU_BEACONS
