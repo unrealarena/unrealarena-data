@@ -24,10 +24,11 @@ install() {
 
 # script
 script() {
-	git diff --name-only v"$(git show HEAD^:VERSION)" | fgrep -v -e ".gitattributes" \
-	                                                             -e ".travis.sh" \
-	                                                             -e ".travis.yml" \
-	                                                             -e "README.md" | zip -9 "unrealarena-data.pre.zip" -@
+	git diff --name-only "$(git describe --abbrev=0 HEAD^ | cut -d- -f1)" | \
+		fgrep -v -e ".gitattributes" \
+		         -e ".travis.sh" \
+		         -e ".travis.yml" \
+		         -e "README.md" | zip -9 "unrealarena-data.pre.zip" -@
 }
 
 
