@@ -5,5 +5,6 @@
 	<body id="menu_main">
 		<img class="background" src="/ui/assets/background" />
 		<img class="gradientv" src="/ui/assets/gradientv" />
+		<h1>Unreal Arena</h1>
 	</body>
 </rml>
