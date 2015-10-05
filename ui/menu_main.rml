@@ -2,7 +2,7 @@
 	<head>
 		<link type="text/rcss" href="menu.rcss" />
 	</head>
-	<body id="menu_main">
+	<body id="menu_main" nohide>
 		<img class="background" src="/ui/assets/background" />
 		<img class="gradientv" src="/ui/assets/gradientv" />
 		<h1>Unreal Arena</h1>
