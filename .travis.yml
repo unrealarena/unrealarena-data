@@ -1,7 +1,6 @@
 language: cpp
 
-compiler: gcc
-
+dist: trusty
 sudo: required
 
 notifications:
@@ -14,13 +13,19 @@ notifications:
       - "%{compare_url}"
 
 before_install:
-  - ./.travis.sh "before_install"
+  - ./.travis.sh before_install
 
 install:
-  - ./.travis.sh "install"
+  - ./.travis.sh install
+
+before_script:
+  - ./.travis.sh before_script
 
 script:
-  - ./.travis.sh "script"
+  - ./.travis.sh script
+
+before_deploy:
+  - ./.travis.sh before_deploy
 
 deploy:
   provider: releases
