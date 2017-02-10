@@ -1,0 +1,18 @@
+<rml>
+	<head>
+		<link type="text/rcss" href="default.rcss" />
+		<link type="text/rcss" href="hud.rcss" />
+	</head>
+	<body id="hud_debug">
+		<!-- Console message buffer -->
+		<div class="region console_text">
+			<p><console_text /></p>
+		</div>
+		<!-- FPS counter -->
+		<div class="region fps">
+			<if cvar="cg_drawFPS" condition="==" value="1">
+				<p><fps /> FPS</p>
+			</if>
+		</div>
+	</body>
+</rml>

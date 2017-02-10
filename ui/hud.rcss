@@ -1,0 +1,20 @@
+.region {
+  display: block;
+  position: fixed;
+}
+
+.console_text {
+  font-size: 1.5em;
+  padding: 0.5em;
+  top: 0;
+  width: 50em;
+}
+
+.fps {
+  font-size: 1.5em;
+  padding: 0.5em;
+  right: 0;
+  text-align: right;
+  top: 0;
+  width: 10em;
+}

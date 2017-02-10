@@ -1,3 +1,9 @@
 units
 {
+	ui/hud_debug.rml
+}
+
+spectator.hudgroup
+{
+	hud_debug
 }
