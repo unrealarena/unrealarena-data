@@ -1,5 +1,6 @@
 <rml>
 	<head>
+		<link type="text/rcss" href="default.rcss" />
 		<link type="text/rcss" href="menu.rcss" />
 	</head>
 	<body id="menu_main" nohide>

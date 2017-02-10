@@ -1,21 +1,16 @@
-body {
-	height: 100%;
-	width: 100%;
-}
-
 img.background {
-	height: 100%;
-	position: absolute;
-	width: 100%;
-	z-index: -1;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 
 img.gradientv {
-	height: 100%;
-	opacity: 0.5;
-	position: absolute;
-	width: 100%;
-	z-index: -1;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 
 #menu_main h1 {
@@ -25,8 +20,8 @@ img.gradientv {
   font-size: 128px;
   font-weight: bold;
   margin-top: 41%;
-  outline-font-effect: outline;
   outline-color: black;
+  outline-font-effect: outline;
   outline-width: 2px;
   text-align: center;
 }
