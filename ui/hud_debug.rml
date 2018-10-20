@@ -1,7 +1,6 @@
 <rml>
 	<head>
-		<link type="text/rcss" href="default.rcss" />
-		<link type="text/rcss" href="hud.rcss" />
+		<link type="text/rcss" href="style.rcss" />
 	</head>
 	<body id="hud_debug">
 		<!-- Console message buffer -->

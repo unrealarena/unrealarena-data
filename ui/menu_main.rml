@@ -1,7 +1,6 @@
 <rml>
 	<head>
-		<link type="text/rcss" href="default.rcss" />
-		<link type="text/rcss" href="menu.rcss" />
+		<link type="text/rcss" href="style.rcss" />
 	</head>
 	<body id="menu_main" nohide>
 		<img class="background" src="/ui/assets/background" />

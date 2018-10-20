@@ -1,11 +1,18 @@
-img.background {
+body {
+  font-family: Play;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+#menu_main img.background {
   height: 100%;
   position: absolute;
   width: 100%;
   z-index: -1;
 }
 
-img.gradientv {
+#menu_main img.gradientv {
   height: 100%;
   opacity: 0.5;
   position: absolute;
@@ -24,4 +31,23 @@ img.gradientv {
   outline-font-effect: outline;
   outline-width: 2px;
   text-align: center;
+}
+
+.region {
+  display: block;
+  position: fixed;
+}
+
+.console_text {
+  padding: 0.5em;
+  top: 0;
+  width: 50em;
+}
+
+.fps {
+  padding: 0.5em;
+  right: 0;
+  text-align: right;
+  top: 0;
+  width: 10em;
 }
