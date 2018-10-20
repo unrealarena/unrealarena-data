@@ -33,6 +33,21 @@ body {
   text-align: center;
 }
 
+#disclaimer div#content {
+  display: block;
+  font-size: 1.2em;
+  margin: 33% auto;
+  text-align: center;
+  width: 66%;
+}
+
+#disclaimer div#press-any-key {
+  bottom: 20%;
+  font-size: 1em;
+  position: absolute;
+  text-align: center;
+}
+
 .region {
   display: block;
   position: fixed;

@@ -19,6 +19,7 @@
 		ui/ingame_chat.rml ingame_chat                         // ROCKETMENU_CHAT
 		ui/ingame_beaconmenu.rml ingame_beaconmenu             // ROCKETMENU_BEACONS
 		ui/error.rml error                                     // ROCKETMENU_ERROR
+		ui/disclaimer.rml disclaimer                           // ROCKETMENU_DISCLAIMER
 	}
 	misc
 	{

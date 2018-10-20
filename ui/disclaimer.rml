@@ -1,0 +1,13 @@
+<rml>
+	<head>
+		<link type="text/rcss" href="style.rcss" />
+	</head>
+	<body id="disclaimer" onClick="document.context:LoadDocument('ui/menu_main.rml'):Show() document:Close()" onKeyDown="document.context:LoadDocument('ui/menu_main.rml'):Show() document:Close()">
+		<div id="content">
+			<p>Unreal Tournament™ is a trademark or registered trademark of Epic Games, Inc. in the United States of America and elsewhere. Quake III Arena™ is a trademark or registered trademark of id Software LLC in the United States and/or other countries. The authors of Unreal Arena are not affiliated with, endorsed by, nor connected in any way to Epic Games, Inc., id Software LLC or any of their subsidiaries.</p>
+		</div>
+		<div id="press-any-key">
+			<p>Press any key to continue...</p>
+		</div>
+	</body>
+</rml>
