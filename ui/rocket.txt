@@ -1,6 +1,7 @@
 {
 	fonts
 	{
+		fonts/Hermit-medium.otf
 		fonts/Play-Regular.ttf
 		fonts/Play-Bold.ttf
 		fonts/Orbitron-Black.ttf

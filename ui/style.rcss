@@ -54,6 +54,7 @@ body {
 }
 
 .console_text {
+  font-family: Hermit;
   padding: 0.5em;
   top: 0;
   width: 50em;
