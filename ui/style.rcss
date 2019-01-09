@@ -67,3 +67,15 @@ body {
   top: 0;
   width: 10em;
 }
+
+#connecting {
+  background-color: black;
+  text-align: center;
+}
+
+.connecting {
+  font-size: 1.2em;
+  position: absolute;
+  top: 66%;
+  width: 100%;
+}

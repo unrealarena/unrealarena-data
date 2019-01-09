@@ -1,0 +1,10 @@
+<rml>
+	<head>
+		<link type="text/rcss" href="style.rcss" />
+	</head>
+	<body id="connecting">
+		<div class="connecting">
+			<connecting/>
+		</div>
+	</body>
+</rml>
