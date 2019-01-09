@@ -79,3 +79,15 @@ body {
   top: 66%;
   width: 100%;
 }
+
+#loading {
+  background-color: black;
+  text-align: center;
+}
+
+.loading {
+  font-size: 1.2em;
+  position: absolute;
+  top: 66%;
+  width: 100%;
+}
