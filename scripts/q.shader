@@ -1,4 +1,4 @@
-models/players/q/red
+models/players/q/default
 {
 	diffuseMap models/players/q/red_d
 	normalMap models/players/q/red_n
